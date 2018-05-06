@@ -11,6 +11,7 @@ HTTP2新特性:
   flags来进行标识。这些帧可以乱序发送， 然后根据每个帧首部的流标识符重新组装
 
   only one Tcp connection一个域名下只用一个tcp链接
+  https://http2.akamai.com/demo
   ![stream](http://wx2.sinaimg.cn/mw690/0060lm7Tly1fr1qdmc3tdj30yd09xac0.jpg)
 
 - 头部压缩
