@@ -1,0 +1,13 @@
+### 6.http2.0
+
+HTTP2新特性:
+- 二进制传输数据而非文本传输
+![二进制传输](https://segmentfault.com/img/remote/1460000006923362?w=1095&h=515)
+
+- 多路复用
+head of line blocking线头阻塞
+
+- 头部压缩
+
+
+- 服务端推送
