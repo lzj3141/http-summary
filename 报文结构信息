@@ -5,7 +5,10 @@
 3.	空格
 4.	请求或响应内容实体
 
-![报文结构]()
+通用首部字段: cache-control connection date via upgrade
+请求首部字段: accept host if-match if-modified-since if-none-match if-range
+响应首部字段: accept-ranges etag server...
+实体首部字段: allow content-encoding expires last-modified
 
 http是无状态协议；
 http请求方法：GET;POST;HEAD;OPTIONS;PUT;DELETE
