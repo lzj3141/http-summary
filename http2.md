@@ -2,7 +2,7 @@
 
 HTTP2新特性:
 - 二进制传输数据而非文本传输
-![二进制传输](https://segmentfault.com/img/remote/1460000006923362?w=1095&h=515)
+![二进制传输](http://wx2.sinaimg.cn/mw690/0060lm7Tly1fr1qb6kcyoj30uf0ebace.jpg)
 
 - 多路复用
 线头阻塞head-of-line blocking
