@@ -19,4 +19,5 @@ HTTP2新特性:
 
 - 服务端推送
 
-  PUSH_PROMISE帧服务端推送许可。
+  PUSH_PROMISE帧服务端推送许可
+  ![服务器推送](http://wx2.sinaimg.cn/mw690/0060lm7Tly1fr1qf9dj4ij30im077dhp.jpgf)
