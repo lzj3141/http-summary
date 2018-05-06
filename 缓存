@@ -1,8 +1,18 @@
 ### 4.缓存
 缓存三大策略:存储策略，过期策略，对比策略
-存储策略:cache-control  public private no-cache no-store max-age...  前四种都是可以缓存到本地的，no-cache其实不是字面上的不缓存，而是不建议读取缓存资源，每次请求强制向源服务器验证；
-no-store才是真正的不缓存。
-过期策略: expires max-age  max-age会覆盖 expires   expires缺点:客户端和服务器时间不一致 max-age=cache-control:pub/pri + expires:当前时间+max-age  no-cache=max-age:0
-对比策略: if-modified-since last-modified etags   客户端服务器对比if-modified-since和last-modified一致就返回304，etags
+存储策略:cache-control  public private no-cache max-age no-store...  前四种都是可以缓存到本地的，
+no-cache其实不是字面上的不缓存，而是不建议读取缓存资源，每次请求强制向源服务器验证；no-store才是真正的不
+缓存。
+
+过期策略: expires max-age  max-age会覆盖 expires
+expires缺点:客户端和服务器时间不一致 max-age=cache-control:pub/pri + expires:当前时间+max-age
+no-cache=max-age:0
+
+对比策略: if-modified-since last-modified etags
+客户端服务器对比if-modified-since和last-modified一致就返回304，etags和if-none-match
 
 ![缓存](http://ww3.sinaimg.cn/mw690/6941baebgw1eul013c3gmj20fe0eo75e.jpg)
+
+
+
+
